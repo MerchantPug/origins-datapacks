@@ -1,0 +1,12 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:food"
+    },
+    "condition": {
+        "type": "origins:power_active",
+        "power": "origins:phantomize"
+    },
+    "name": "Phasethrough Stomach",
+    "description": "You are unable to eat while phantomised."
+}

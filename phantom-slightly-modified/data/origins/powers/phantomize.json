@@ -1,0 +1,25 @@
+{
+    "loading_priority": 1,
+    "type": "origins:toggle",
+    "key": {
+      "key": "key.origins.primary_active",
+      "continuous": false
+    },
+    "retain_state": false,
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:food_level",
+                "comparison": ">",
+                "compare_to": 6
+            },
+            {
+                "type": "origins:in_block",
+                "block_condition": {
+                    "type": "origins:movement_blocking"
+                }
+            }
+        ]
+    }
+}

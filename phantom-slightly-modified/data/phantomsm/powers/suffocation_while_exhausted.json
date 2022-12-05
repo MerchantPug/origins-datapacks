@@ -1,0 +1,33 @@
+{
+    "type": "origins:damage_over_time",
+    "interval": 120,
+    "damage": 1,
+    "damage_easy": 1,
+    "damage_source": {
+        "name": "starve",
+        "unblockable": true,
+        "bypasses_armor": true
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food_level",
+                "comparison": "<=",
+                "compare_to": 6
+            },
+            {
+                "type": "origins:food_level",
+                "comparison": ">",
+                "compare_to": 0
+            },
+            {
+                "type": "origins:in_block",
+                "block_condition": {
+                    "type": "origins:movement_blocking"
+                }
+            }
+        ]
+    },
+    "hidden": true
+}
