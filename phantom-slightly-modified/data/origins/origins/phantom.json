@@ -7,12 +7,12 @@
 		"origins:invisibility",
 		"origins:burn_in_daylight",
 		"origins:hunger_over_time",
-        "phantomsm:phasethrough_stomach",
+        "pug_phantom:phasethrough_stomach",
 		"origins:fragile",
 		"origins:phantomize_overlay",
-        "phantomsm:suffocation_while_exhausted",
-        "phantomsm:phantomize_callback",
-        "phantomsm:phantomize_no_mine"
+        "pug_phantom:suffocation_while_exhausted",
+        "pug_phantom:phantomize_callback",
+        "pug_phantom:phantomize_no_mine"
     ],
 	"icon": {
 		"item": "minecraft:phantom_membrane"
