@@ -3,11 +3,7 @@
     "interval": 120,
     "damage": 1,
     "damage_easy": 1,
-    "damage_source": {
-        "name": "starve",
-        "unblockable": true,
-        "bypasses_armor": true
-    },
+    "damage_type": "minecraft:starve",
     "condition": {
         "type": "origins:and",
         "conditions": [

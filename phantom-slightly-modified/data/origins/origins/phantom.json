@@ -11,7 +11,8 @@
 		"origins:fragile",
 		"origins:phantomize_overlay",
         "phantomsm:suffocation_while_exhausted",
-        "phantomsm:phantomize_callback"
+        "phantomsm:phantomize_callback",
+        "phantomsm:phantomize_no_mine"
     ],
 	"icon": {
 		"item": "minecraft:phantom_membrane"
