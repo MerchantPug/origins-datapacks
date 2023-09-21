@@ -1,0 +1,25 @@
+{
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:mount"
+    },
+    "item_condition": {
+        "type": "origins:empty"
+    },
+    "hands": [
+        "main_hand"
+    ],
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:player"
+        }
+    },
+    "condition": {
+        "type": "origins:sneaking",
+        "inverted": true
+    },
+    "name": "power.extraorigins.jockey.name",
+    "description": "By right clicking on a player with an empty hand, you are able to ride them. They may throw you off by right clicking and sneaking."
+}

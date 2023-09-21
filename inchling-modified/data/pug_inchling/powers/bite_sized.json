@@ -1,0 +1,72 @@
+{
+    "type": "origins:multiple",
+    "modify_size": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:width",
+            "pehkui:height"
+        ],
+        "scale": 0.5
+    },
+    "visibility": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:visibility"
+        ],
+        "scale": 0.75
+    },
+    "modify_hitbox_width": {
+        "type": "extraorigins:modify_size",
+        "scale_types": [
+            "pehkui:interaction_box_width"
+        ],
+        "scale": 1.5
+    },
+    "attribute_modifiers": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "name": "Less health from Bite Sized",
+                "attribute": "minecraft:generic.max_health",
+                "operation": "addition",
+                "value": -10
+            },
+            {
+                "name": "Less movement speed from Bite Sized",
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "multiply_total",
+                "value": -0.2
+            },
+            {
+                "name": "Less attack range from Bite Sized",
+                "attribute": "reach-entity-attributes:attack_range",
+                "operation": "addition",
+                "value": -0.25
+            },
+            {
+                "name": "Less reach from Bite Sized",
+                "attribute": "reach-entity-attributes:reach",
+                "operation": "addition",
+                "value": -1
+            }
+        ]
+    },
+    "jump_modifier": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "name": "Less jump height from Bite Sized",
+            "operation": "multiply_total",
+            "value": -0.3333
+        }
+    },
+    "air_speed_modifier": {
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "name": "Less air speed from Bite Sized",
+            "operation": "multiply_total",
+            "value": -0.2
+        }
+    },
+    "name": "power.extraorigins.bite_sized.name",
+    "description": "You are half the size of and have 5 less hearts of health than humans."
+}

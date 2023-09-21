@@ -1,0 +1,8 @@
+{
+    "entity_types": [
+        "minecraft:player"
+    ],
+    "powers": [
+        "pug_inchling:yeet"
+    ]
+}
