@@ -21,5 +21,12 @@
         "inverted": true
     },
     "name": "power.extraorigins.jockey.name",
-    "description": "By right clicking on a player with an empty hand, you are able to ride them. They may throw you off by right clicking and sneaking."
+    "description": "By using a player with an empty hand, you are able to ride them.",
+    "badges": [
+        {
+            "type": "origins:tooltip",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Players may throw you off by sneaking with an empty hand."
+        }
+    ]
 }
