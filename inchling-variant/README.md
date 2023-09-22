@@ -2,6 +2,7 @@
 ## This datapack is unfinished at the moment, please check back later.
 
 For those who want a inchling modification that cuts out things that don't feel like they belong on the origin, and also changes stuff to fit within my own design preferences.
+This is pretty much a "What if I designed this origin" datapack.
 
 For the Bitesized version, which keeps the Inchling at its original size, please check when the Origin is released.
 
