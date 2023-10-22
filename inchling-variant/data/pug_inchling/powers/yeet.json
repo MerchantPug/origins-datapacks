@@ -13,7 +13,16 @@
                 {
                     "type": "origins:actor_action",
                     "action": {
-                        "type": "origins:dismount"
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:dismount"
+                            },
+                            {
+                                "type": "origins:trigger_cooldown",
+                                "power": "pug_inchling:jockey_cooldown"
+                            }
+                        ]
                     }
                 },
                 {
@@ -37,6 +46,27 @@
             ]
         }
     },
+    "prevent_collision": {
+        "type": "origins:prevent_entity_collision",
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:living"
+                },
+                {
+                    "type": "origins:power",
+                    "power": "pug_inchling:jockey"
+                },
+                {
+                    "type": "origins:invert",
+                    "condition": {
+                        "type": "origins:riding_recursive"
+                    }
+                }
+            ]
+        }
+    },
     "condition": {
         "type": "origins:and",
         "conditions": [
@@ -48,9 +78,8 @@
                 "bientity_condition": {
                     "type": "origins:actor_condition",
                     "condition": {
-                        "type": "origins:origin",
-                        "layer": "origins:origin",
-                        "origin": "extraorigins:inchling"
+                        "type": "origins:power",
+                        "power": "pug_inchling:jockey"
                     }
                 },
                 "comparison": ">",
