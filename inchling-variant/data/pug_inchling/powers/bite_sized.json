@@ -29,7 +29,7 @@
                 "name": "Less health from Bite Sized",
                 "attribute": "minecraft:generic.max_health",
                 "operation": "addition",
-                "value": -6
+                "value": -8
             },
             {
                 "name": "Less movement speed from Bite Sized",
@@ -68,5 +68,5 @@
         }
     },
     "name": "power.extraorigins.bite_sized.name",
-    "description": "You are half the size of and have 3 less hearts of health than humans."
+    "description": "You are half the size of and have 4 less hearts of health than humans."
 }
