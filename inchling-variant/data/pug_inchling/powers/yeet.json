@@ -46,17 +46,26 @@
             ]
         }
     },
-    "prevent_entity_selection": {
+    "prevent_collision": {
         "type": "apugli:prevent_entity_selection",
         "bientity_condition": {
             "type": "origins:and",
             "conditions": [
                 {
-                    "type": "origins:living"
-                },
-                {
-                    "type": "origins:power",
-                    "power": "pug_inchling:jockey"
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                            
+                                "type": "origins:living"
+                            },
+                            {
+                                "type": "origins:power",
+                                "power": "pug_inchling:jockey"
+                            }
+                        ]
+                    }
                 },
                 {
                     "type": "origins:invert",
