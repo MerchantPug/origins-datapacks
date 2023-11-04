@@ -46,8 +46,8 @@
             ]
         }
     },
-    "prevent_collision": {
-        "type": "origins:prevent_entity_collision",
+    "prevent_entity_selection": {
+        "type": "apugli:prevent_entity_selection",
         "bientity_condition": {
             "type": "origins:and",
             "conditions": [

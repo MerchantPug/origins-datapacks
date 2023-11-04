@@ -1,26 +1,46 @@
 {
     "type": "origins:multiple",
-    "modify_size": {
-        "type": "extraorigins:modify_size",
+    "modify_scale": {
+        "type": "apugli:modify_scale",
         "scale_types": [
             "pehkui:width",
             "pehkui:height"
         ],
-        "scale": 0.5
+        "modifier": {
+            "name": "Less scale from Bite Sized",
+            "operation": "multiply_total_multiplicative",
+            "value": -0.5
+        }
     },
     "visibility": {
-        "type": "extraorigins:modify_size",
-        "scale_types": [
-            "pehkui:visibility"
-        ],
-        "scale": 0.75
+        "type": "apugli:modify_scale",
+        "scale_type": "pehkui:visibility",
+        "modifier": {
+            "name": "Less visibility from Bite Sized",
+            "operation": "multiply_total_multiplicative",
+            "value": -0.25
+        }
     },
-    "modify_hitbox_width": {
-        "type": "extraorigins:modify_size",
-        "scale_types": [
-            "pehkui:interaction_box_width"
-        ],
-        "scale": 1.5
+    "interaction_box_width": {
+        "type": "apugli:modify_scale",
+        "scale_types": "pehkui:interaction_box_width",
+        "modifier": {
+            "name": "Larger interaction hitbox width from Bite Sized",
+            "operation": "multiply_total_multiplicative",
+            "value": 0.5
+        }
+    },
+    "crawling_height": {
+        "type": "apugli:modify_scale",
+        "scale_types": "pehkui:hitbox_height",
+        "modifier": {
+            "name": "Smaller hitbox height whilst crawling",
+            "operation": "multiply_total_multiplicative",
+            "value": -0.18
+        },
+        "condition": {
+            "type": "apugli:crawling"
+        }
     },
     "attribute_modifiers": {
         "type": "origins:attribute",
