@@ -16,7 +16,7 @@ For the Bitesized version, which keeps the Inchling at its original size, please
 - Removed extra attack speed.
 - Dropped items are now the same size as a regular player's drops.
 - Jockey is now activated by right clicking on a player with an empty mainhand.
-- Other players may now throw Inchling players that are riding them off by sneaking and pressing the use (default Right Click) key.
+- Other players may now throw Inchling players that are riding them off by sneaking and pressing the use key (default right click).
 
 ### Dependencies
 - [Extra Origins](https://modrinth.com/mod/extra-origins)
