@@ -1,6 +1,6 @@
 {
     "type": "origins:multiple",
-    "gay_sex": {
+    "throw": {
         "type": "origins:active_self",
         "cooldown": 1,
         "key": {
