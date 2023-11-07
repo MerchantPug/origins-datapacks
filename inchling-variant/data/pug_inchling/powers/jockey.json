@@ -21,8 +21,8 @@
         "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:player"
+                "type": "origins:in_tag",
+                "tag": "pug_inchling:jockeyable"
             }
         },
         "condition": {
@@ -40,8 +40,8 @@
                 {
                     "type": "origins:target_condition",
                     "condition": {
-                        "type": "origins:entity_type",
-                        "entity_type": "minecraft:player"
+                        "type": "origins:in_tag",
+                        "tag": "pug_inchling:jockeyable"
                     }
                 },
                 {
