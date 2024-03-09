@@ -23,7 +23,7 @@
     },
     "interaction_box_width": {
         "type": "apugli:modify_scale",
-        "scale_types": "pehkui:interaction_box_width",
+        "scale_type": "pehkui:interaction_box_width",
         "modifier": {
             "name": "Larger interaction hitbox width from Bite Sized",
             "operation": "multiply_total_multiplicative",
