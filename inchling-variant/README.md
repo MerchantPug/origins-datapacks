@@ -3,7 +3,9 @@
 An Inchling modification that changes stuff to fit within my own design preferences.
 This is pretty much a "What if I designed Inchling" datapack.
 
-For the Bitesized version, which keeps the Inchling at its original size, please check when the Origin is released.
+I would personally recommend playing this with a keybind crawl mod, so you can still go through slabs and stairs.
+
+For the Bitesized version, which keeps the Inchling at its original size, please go [here.](https://github.com/MerchantPug/origins-datapacks/tree/main/inchling-variant-bite-sized)
 
 ### Changelog
 - Updated descriptions to be much less wordy.
