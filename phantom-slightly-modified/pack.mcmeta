@@ -1,6 +1,10 @@
 {
     "pack": {
-      "pack_format": 15,
-      "description": "§fPhantom Slightly Modified §7v1.1.0 - §aMerchantPug"
+        "pack_format": 15,
+        "supported_formats": {
+          "min_inclusive": 15,
+          "max_inclusive": 18
+        },
+        "description": "§fPhantom Slightly Modified §7v1.1.0 - §aMerchantPug"
     }
-  }
+}
