@@ -1,0 +1,75 @@
+{
+    "type": "origins:multiple",
+    "modify_scale": {
+        "type": "apugli:modify_scale",
+        "scale_types": [
+            "pehkui:width",
+            "pehkui:height",
+            "pehkui:visibility",
+            "pehkui:drops"
+        ],
+        "modifier": {
+            "name": "Less scale from Bite Sized",
+            "operation": "multiply_total_multiplicative",
+            "value": -0.75
+        }
+    },
+    "interaction_box_width": {
+        "type": "apugli:modify_scale",
+        "scale_type": "pehkui:interaction_box_width",
+        "modifier": {
+            "name": "Larger interaction hitbox width from Bite Sized",
+            "operation": "multiply_total_multiplicative",
+            "value": 1.0
+        }
+    },
+    "attribute_modifiers": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "name": "Less health from Bite Sized",
+                "attribute": "minecraft:generic.max_health",
+                "operation": "addition",
+                "value": -10
+            },
+            {
+                "name": "Less movement speed from Bite Sized",
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "multiply_total",
+                "value": -0.25
+            },
+            {
+                "name": "Less attack range from Bite Sized",
+                "attribute": "reach-entity-attributes:attack_range",
+                "operation": "addition",
+                "value": -0.25
+            },
+            {
+                "name": "Less reach from Bite Sized",
+                "attribute": "reach-entity-attributes:reach",
+                "operation": "addition",
+                "value": -1
+            }
+        ]
+    },
+    "air_speed_modifier": {
+        "type": "origins:modify_air_speed",
+        "modifier": {
+            "name": "Less air speed from Bite Sized",
+            "operation": "multiply_total",
+            "value": -0.25
+        }
+    },
+    "jump_modifier": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "name": "Less jump height from Bite Sized",
+            "operation": "multiply_total_multiplicative",
+            "value": -0.25
+        }
+    },
+    "name": {
+        "translate": "power.extraorigins.bite_sized.name"
+    },
+    "description": "You are quarter the size of and have 5 less hearts of health than humans."
+}

@@ -1,0 +1,10 @@
+{
+    "entity_types": [
+        "minecraft:player"
+    ],
+    "powers": [
+        "pug_inchling:yeet",
+        "pug_inchling:yeet_throw",
+        "pug_inchling:yeet_prevent_selection"
+    ]
+}

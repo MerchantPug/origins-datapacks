@@ -1,0 +1,27 @@
+{
+    "loading_priority": 1,
+    "type": "origins:multiple",
+    "damage_immunity": {
+      "type": "origins:modify_damage_taken",
+      "modifier": {
+        "name": "No thorns or velocity damage from Nimble",
+        "operation": "multiply_total_multiplicative",
+        "value": -1.0
+      },
+      "damage_condition": {
+        "type": "origins:in_tag",
+        "tag": "pug_inchling:inchling_immune"
+      }
+    },
+    "prevent_block_slowness": {
+      "type": "extraorigins:prevent_block_slowness",
+      "inverted": true
+    },
+    "can_walk_on_powder_snow": {
+      "type": "extraorigins:can_walk_on_powder_snow"
+    },
+    "name": {
+        "translate": "power.extraorigins.nimble.name"
+    },
+    "description": "You are immune to thorns and velocity based damage."
+}
