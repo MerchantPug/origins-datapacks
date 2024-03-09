@@ -75,6 +75,8 @@
             "value": -0.25
         }
     },
-    "name": "power.extraorigins.bite_sized.name",
+    "name": {
+        "translate": "power.extraorigins.bite_sized.name"
+    },
     "description": "You are half the size of and have 4 less hearts of health than humans."
 }

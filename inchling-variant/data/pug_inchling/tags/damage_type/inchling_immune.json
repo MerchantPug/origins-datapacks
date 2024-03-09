@@ -1,0 +1,10 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:is_fall",
+        "minecraft:fly_into_wall",
+        "minecraft:cactus",
+        "minecraft:sweet_berry_bush",
+        "minecraft:thorns"
+    ]
+}

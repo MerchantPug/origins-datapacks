@@ -50,7 +50,9 @@
             ]
         }
     },
-    "name": "power.extraorigins.jockey.name",
+    "name": {
+        "translate": "power.extraorigins.jockey.name"
+    },
     "description": "By using a player with an empty hand, you are able to ride them.",
     "badges": [
         {

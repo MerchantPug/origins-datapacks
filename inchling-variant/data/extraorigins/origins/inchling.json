@@ -2,7 +2,7 @@
     "loading_priority": 1,
     "powers": [
         "pug_inchling:bite_sized",
-        "extraorigins:nimble",
+        "pug_inchling:nimble",
         "extraorigins:small_appetite",
         "origins:climbing",
         "pug_inchling:jockey"
