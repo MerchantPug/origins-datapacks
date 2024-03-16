@@ -12,7 +12,7 @@ For the Bitesized version, which keeps the Inchling at its original size, please
 - Inchling is now half of the average player's size instead of previously being a quarter of the average player's size.
 - Mob visibility has been increased to 75% of the regular amount, instead of its previous 25%.
 - Inchling's extra hitbox width no longer affects block collisions, it has also been reduced to 150% of the Inchling's size instead of 200% to compensate for the now larger Inchling.
-- Now has 4 less hearts of health instead of 5.
+- Now has 3 less hearts of health instead of 5.
 - Changed movement speed decrease from 15% less to 25% less. Air speed is now also 25% slower.
 - Removed extra attack speed.
 - Dropped items are now the same size as a regular player's drops.

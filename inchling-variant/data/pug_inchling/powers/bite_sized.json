@@ -37,7 +37,7 @@
                 "name": "Less health from Bite Sized",
                 "attribute": "minecraft:generic.max_health",
                 "operation": "addition",
-                "value": -8
+                "value": -6
             },
             {
                 "name": "Less movement speed from Bite Sized",
@@ -72,7 +72,7 @@
         "modifier": {
             "name": "Less jump height from Bite Sized",
             "operation": "multiply_total_multiplicative",
-            "value": -0.25
+            "value": -0.1
         }
     },
     "name": {
