@@ -1,0 +1,17 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+      "name": "Extra damage while fall flying",
+      "value": 0.5,
+      "operation": "multiply_base"
+    },
+    "condition": {
+      "type": "origins:fall_flying"
+    },
+    "name": {
+        "translate": "power.origins.aerial_combatant.name"
+    },
+    "description": {
+        "translate": "power.origins.aerial_combatant.name"
+    }
+}
