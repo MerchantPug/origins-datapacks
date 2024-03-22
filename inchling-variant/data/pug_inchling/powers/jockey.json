@@ -68,13 +68,7 @@
                         "keybind": "key.use"
                     }
                 ],
-                "fallback": [
-                    "Players may throw you off by sneaking and pressing [",
-                    {
-                        "keybind": "key.use"
-                    },
-                    "]"
-                ]
+                "fallback": "Players may throw you off by sneaking and pressing [%s]"
             }
         }
     ]
