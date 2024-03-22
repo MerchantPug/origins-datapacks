@@ -22,9 +22,9 @@
         ]
     },
     "name": {
-        "translate": "power.phantomize.invisibility.name"
+        "translate": "power.origins.phantomize.name"
     },
     "description": {
-        "translate": "power.phantomize.invisibility.description"
+        "translate": "power.origins.phantomize.description"
     }
 }
