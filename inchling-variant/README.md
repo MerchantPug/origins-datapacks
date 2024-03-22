@@ -23,3 +23,5 @@ For the Bitesized version, which keeps the Inchling at its original size, please
 - [Extra Origins](https://modrinth.com/mod/extra-origins)
 - [Pehkui](https://modrinth.com/mod/pehkui)
 - [Apugli](https://modrinth.com/mod/apugli)
+
+### [Download](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FMerchantPug%2Forigins-datapacks%2Ftree%2Fmain%2Finchling-variant)
