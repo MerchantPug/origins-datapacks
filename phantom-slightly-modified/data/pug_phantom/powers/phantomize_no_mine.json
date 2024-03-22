@@ -9,12 +9,24 @@
         "conditions": [
             {
                 "type": "origins:power_active",
-                "power": "origins:phantomize"
+                "power": "*:phantomize"
             },
             {
                 "type": "origins:in_block",
                 "block_condition": {
-                    "type": "origins:movement_blocking"
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:movement_blocking"
+                        },
+                        {
+                            "type": "origins:offset",
+                            "condition": {
+                                "type": "origins:movement_blocking"
+                            },
+                            "y": 1
+                        }
+                    ]
                 }
             }
         ]

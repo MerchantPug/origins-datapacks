@@ -1,0 +1,14 @@
+{
+    "type": "origins:invisibility",
+    "render_armor": true,
+    "condition": {
+        "type": "origins:power_active",
+        "power": "*:phantomize"
+    },
+    "name": {
+        "translate": "power.origins.invisibility.name"
+    },
+    "description": {
+        "translate": "power.origins.invisibility.description"
+    }
+}

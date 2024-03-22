@@ -1,5 +1,4 @@
 {
-    "loading_priority": 1,
     "type": "origins:toggle",
     "key": {
       "key": "key.origins.primary_active",
@@ -21,5 +20,11 @@
                 }
             }
         ]
+    },
+    "name": {
+        "translate": "power.phantomize.invisibility.name"
+    },
+    "description": {
+        "translate": "power.phantomize.invisibility.description"
     }
 }

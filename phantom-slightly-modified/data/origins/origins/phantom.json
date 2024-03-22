@@ -1,15 +1,15 @@
 {
     "loading_priority": 1,
 	"powers": [
-	    "origins:phantomize",
+	    "pug_phantom:phantomize",
 		"origins:translucent",
-		"origins:phasing",
-		"origins:invisibility",
+		"pug_phantom:phasing",
+		"pug_phantom:invisibility",
 		"origins:burn_in_daylight",
-		"origins:hunger_over_time",
+		"pug_phantom:hunger_over_time",
         "pug_phantom:phasethrough_stomach",
 		"origins:fragile",
-		"origins:phantomize_overlay",
+		"pug_phantom:phantomize_overlay",
         "pug_phantom:suffocation_while_exhausted",
         "pug_phantom:phantomize_callback",
         "pug_phantom:phantomize_no_mine"

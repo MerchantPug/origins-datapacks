@@ -5,8 +5,14 @@
     },
     "condition": {
         "type": "origins:power_active",
-        "power": "origins:phantomize"
+        "power": "*:phantomize"
     },
-    "name": "Phasethrough Stomach",
-    "description": "You are unable to eat while phantomised."
+    "name": {
+        "translate": "power.pug_phantom.phasethrough_stomach.name",
+        "fallback": "Phasethrough Stomach"
+    },
+    "description": {
+        "translate": "power.pug_phantom.phasethrough_stomach.description",
+        "fallback": "You are unable to eat whilst phantomised."
+    }
 }
