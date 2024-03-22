@@ -121,7 +121,7 @@
                 "translate": "origins.gui.badge.active",
                 "with": [
                     {
-                        "keybind": "key.use"
+                        "keybind": "key.origins.primary_active"
                     }
                 ]
             }
