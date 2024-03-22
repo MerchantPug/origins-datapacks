@@ -6,5 +6,6 @@ v1.1.1
 v1.1.0
 - Changed the namespace for custom powers from `phantomsm` to `pug_phantom`.
 - Made Phantom unable to mine whilst phantomised and in blocks.
+- Updated to 1.20.1.
 v1.0.0
 - Initial release.

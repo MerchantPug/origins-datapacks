@@ -71,5 +71,8 @@
     "name": {
         "translate": "power.extraorigins.bite_sized.name"
     },
-    "description": "You are quarter the size of and have 5 less hearts of health than humans."
+    "description": {
+        "translate": "power.pug_inchling_bite_sized.bite_sized.description",
+        "fallback": "You are quarter the size of and have 5 less hearts of health than humans."
+    }
 }

@@ -53,18 +53,29 @@
     "name": {
         "translate": "power.extraorigins.jockey.name"
     },
-    "description": "By using a player with an empty hand, you are able to ride them.",
+    "description": {
+        "translate": "power.pug_inchling_bite_sized.jockey.description",
+        "fallback": "By using a player with an empty hand, you are able to ride them."
+    },
     "badges": [
         {
             "type": "origins:tooltip",
             "sprite": "origins:textures/gui/badge/info.png",
-            "text": [  
-                "Players may throw you off by sneaking and pressing [",
-                {
-                    "keybind": "key.use"
-                },
-                "]"
-            ]
+            "text": {
+                "translate": "pug_inchling_bite_sized.gui.badge.throw",
+                "with": [
+                    {
+                        "keybind": "key.use"
+                    }
+                ],
+                "fallback": [
+                    "Players may throw you off by sneaking and pressing [",
+                    {
+                        "keybind": "key.use"
+                    },
+                    "]"
+                ]
+            }
         }
     ]
 }
